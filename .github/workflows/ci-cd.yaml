@@ -45,4 +45,4 @@ jobs:
 
       # Step 7: Push Docker Image
       - name: Push Docker Image
-        run: docker push yourusername/yourapp:${{ github.sha }}
+        run: docker push mollyrich03/exercise:${{ github.sha }}
